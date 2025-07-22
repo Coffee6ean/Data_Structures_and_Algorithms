@@ -1,4 +1,4 @@
-# Updated Senior Full-Stack Developer Study Plan - DSA Focus
+# Senior Full-Stack Developer Study Plan - DSA Focus
 
 ## 🚨 **PRIORITY 1: DSA Patterns (Daily Practice - 8 weeks)**
 

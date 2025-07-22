@@ -2,12 +2,65 @@
 
 ## 🚨 **PRIORITY 1: DSA Patterns (Daily Practice - 8 weeks)**
 
-### **The 17 Core Patterns That Cover 95% of FAANG Questions** 
+### **🎓 LEARNING PROGRESSION STRATEGY - "TRAINING WHEELS" REMOVAL**
+
+**CRITICAL NOTE: How to approach problems within each pattern for maximum learning:**
+
+#### **Pattern Learning Progression (Per Pattern):**
+
+**Problem 1-2: Full "Learn-Then-Implement"**
+- Watch solution video first (10-15 min) - Understand approach & pattern
+- Close everything and implement from scratch (20-30 min)
+- Focus on understanding the "why" behind each step
+- **Goal**: Build the pattern template in your brain
+
+**Problem 3: "Peek Method"**
+- Try solving for 15-20 minutes first (no videos)
+- If stuck → Watch ONLY the approach explanation (not the code)
+- Close video → Implement yourself
+- **Goal**: Test if you can recognize the pattern independently
+
+**Problem 4-5: "Pure Attempt"**
+- Try for 30-45 minutes solo (depending on difficulty)
+- Only watch video if completely stuck after genuine attempt
+- **Goal**: Build real interview confidence and problem-solving skills
+
+#### **Difficulty-Based Time Boxing:**
+- **Easy Problems**: Always try first (15 min max) - These test pattern recognition
+- **Medium Problems**: Learn-then-implement for first 1-2, then try solo (25-30 min max)
+- **Hard Problems**: Always attempt first (45+ min max) - These test pattern combinations
+
+#### **"Partial Learning" When Stuck:**
+1. **Step 1**: Watch only "Approach" section (high-level strategy, no code)
+2. **Step 2**: Look at algorithm steps/pseudocode (if still stuck)
+3. **Step 3**: Watch full solution (last resort) → then implement from memory
+
+#### **Green Flags (Ready for "Try First"):**
+- ✅ You can explain previous problem's approach clearly
+- ✅ You recognize "this feels like [pattern]" within 2-3 minutes  
+- ✅ You can write the basic template/structure without looking
+
+#### **Red Flags (Watch Video First):**
+- ❌ Still confused about when to use the pattern
+- ❌ Previous problem took multiple attempts to understand
+- ❌ Can't explain why the pattern works
+
+---
+
+## **The 17 Core Patterns That Cover 95% of FAANG Questions** 
 *Updated based on 2025 Amazon assessment data - including the patterns that "folded" you*
 
 #### **Week 1-2: Foundation Patterns (Master These First)**
 1. **Two Pointers** ⭐⭐⭐
    - *Amazon Frequency: Very High*
+   - **Learning Progression Example:**
+     ```
+     Problem 1: Two Sum II (167) - LEARN FIRST (Easy, foundational)
+     Problem 2: Container With Most Water (11) - LEARN FIRST (See optimization)
+     Problem 3: 3Sum (15) - TRY FIRST 20min, then peek approach
+     Problem 4: Trapping Rain Water (42) - TRY FIRST 45min, pure attempt
+     Problem 5: 4Sum (18) - TRY FIRST, tests true mastery
+     ```
    - **Master Problems:**
      - Two Sum II (167) - *Easy warmup*
      - Container With Most Water (11) - *Amazon favorite*
@@ -17,6 +70,13 @@
 
 2. **Sliding Window** ⭐⭐⭐
    - *Amazon Frequency: Very High*
+   - **Learning Progression:**
+     ```
+     Problem 1: Maximum Average Subarray (643) - TRY FIRST (Easy)
+     Problem 2: Longest Substring Without Repeating (3) - LEARN FIRST (Classic)
+     Problem 3: Minimum Window Substring (76) - TRY FIRST 30min
+     Problem 4-5: Pure attempts with video as backup
+     ```
    - **Master Problems:**
      - Maximum Average Subarray I (643) - *Easy start*
      - Longest Substring Without Repeating Characters (3) - *Amazon classic*
@@ -26,6 +86,7 @@
 
 3. **Fast & Slow Pointers (Floyd's Cycle)** ⭐⭐
    - *Amazon Frequency: Medium-High*
+   - **Learning Progression:** Problems 1-2 learn first, then pure attempts
    - **Master Problems:**
      - Linked List Cycle (141) - *Foundation*
      - Find the Duplicate Number (287) - *Amazon loves this*
@@ -36,6 +97,7 @@
 #### **Week 3-4: Tree & Graph Patterns**
 4. **Tree Traversal (DFS/BFS)** ⭐⭐⭐
    - *Amazon Frequency: Very High*
+   - **Learning Progression:** Learn first 2 problems, then try-first approach
    - **Master Problems:**
      - Binary Tree Inorder Traversal (94) - *Foundation*
      - Maximum Depth of Binary Tree (104) - *Easy DFS*
@@ -46,6 +108,7 @@
 
 5. **Binary Search** ⭐⭐⭐
    - *Amazon Frequency: Very High*
+   - **Learning Progression:** Learn first problem thoroughly, then pure attempts
    - **Master Problems:**
      - Binary Search (704) - *Foundation*
      - Find First and Last Position (34) - *Amazon classic*
@@ -55,6 +118,7 @@
 
 6. **Graph Traversal (DFS/BFS)** ⭐⭐
    - *Amazon Frequency: Medium-High*
+   - **Learning Progression:** Learn DFS/BFS foundations, then try variations
    - **Master Problems:**
      - Number of Islands (200) - *Classic DFS*
      - Word Ladder (127) - *BFS shortest path*
@@ -65,6 +129,7 @@
 #### **Week 5-6: Advanced Patterns**
 7. **Dynamic Programming** ⭐⭐⭐
    - *Amazon Frequency: High*
+   - **Learning Progression:** Learn foundational problems first, critical for interview success
    - **Master Problems:**
      - Climbing Stairs (70) - *Foundation*
      - House Robber (198) - *1D DP*
@@ -75,6 +140,7 @@
 
 8. **Backtracking** ⭐⭐
    - *Amazon Frequency: Medium*
+   - **Learning Progression:** Learn template first, then try variations
    - **Master Problems:**
      - Permutations (46) - *Foundation*
      - Subsets (78) - *Generate all combinations*
@@ -84,6 +150,7 @@
 
 9. **Monotonic Stack** ⭐⭐
    - *Amazon Frequency: Medium-High*
+   - **Learning Progression:** Learn concept thoroughly first, then apply
    - **Master Problems:**
      - Next Greater Element I (496) - *Foundation*
      - Daily Temperatures (739) - *Amazon favorite*
@@ -94,6 +161,7 @@
 #### **Week 7-8: Amazon-Specific Patterns**
 10. **Heap/Priority Queue** ⭐⭐
     - *Amazon Frequency: Medium-High*
+    - **Learning Progression:** Learn heap operations first, critical foundation
     - **Master Problems:**
       - Kth Largest Element (215) - *Foundation*
       - Top K Frequent Elements (347) - *Amazon loves this*
@@ -103,6 +171,7 @@
 
 11. **Merge Intervals** ⭐⭐
     - *Amazon Frequency: Medium*
+    - **Learning Progression:** Learn sorting approach first, then try variations
     - **Master Problems:**
       - Merge Intervals (56) - *Foundation*
       - Insert Interval (57) - *Amazon classic*
@@ -112,6 +181,7 @@
 
 12. **Trie (Prefix Tree)** ⭐
     - *Amazon Frequency: Medium*
+    - **Learning Progression:** Learn implementation first, essential data structure
     - **Master Problems:**
       - Implement Trie (208) - *Foundation*
       - Word Search II (212) - *Trie + backtracking*
@@ -131,6 +201,7 @@
 
 16. **Subsequence Problems** ⭐⭐⭐
    - *Amazon Frequency: VERY High (You experienced this!)*
+   - **Learning Progression:** Learn LIS thoroughly first, it's the foundation for all others
    - **Master Problems:**
      - Longest Increasing Subsequence (300) - *Foundation*
      - Longest Common Subsequence (1143) - *Classic DP*
@@ -142,6 +213,7 @@
 
 17. **Segmentify/Range Query Problems** ⭐⭐
    - *Amazon Frequency: High (Segment Trees, Range Queries)*
+   - **Learning Progression:** Learn prefix sums first, then segment trees
    - **Master Problems:**
      - Range Sum Query - Mutable (307) - *Segment tree foundation*
      - Range Minimum Query (RMQ) - *Core concept*
@@ -176,35 +248,40 @@
 *Based on senior developer recommendations - most time-efficient for interview prep*
 
 **Daily Problem-Solving Routine (45 minutes per problem):**
-1. **Watch Solution Video** (10-15 min) - Understand approach & pattern
+1. **Watch Solution Video** (10-15 min) - Understand approach & pattern [For Problems 1-2 of each pattern]
 2. **Close Everything & Implement** (20-30 min) - Code from scratch while explaining out loud
 3. **Compare & Take Notes** (5-10 min) - Add to pattern recognition cheat sheet
+
+**OR (For Problems 3+ of each pattern):**
+1. **Try Problem Solo** (15-45 min depending on difficulty) - Use time boxing
+2. **Watch Video if Stuck** (10-15 min) - Only approach, not full code
+3. **Implement & Compare** (15-20 min) - Code from understanding, then compare
 
 ### **Phase 1: Assessment Revenge + Foundation (Week 1-2)**
 **Daily Routine (3-4 hours/day):**
 - **Morning (1.5 hours):** Udemy course sections + theory
-- **Afternoon (1 hour):** Watch solution videos for priority patterns
-- **Evening (1.5 hours):** Implement problems using learn-then-code method
+- **Afternoon (1 hour):** Watch solution videos for priority patterns OR try problems solo
+- **Evening (1.5 hours):** Implement problems using progressive learning method
 
 **Week 1 - Assessment Revenge Focus:**
 - **Monday:** 
   - Udemy: Arrays + Two Pointers
-  - **Learn-Then-Implement:** Longest Increasing Subsequence (300)
-  - **Practice:** Is Subsequence (392)
+  - **Learn-Then-Implement:** Longest Increasing Subsequence (300) [LEARN FIRST]
+  - **Practice:** Is Subsequence (392) [TRY FIRST 15min]
 - **Tuesday:** 
   - Udemy: Hash Tables + Strings
-  - **Learn-Then-Implement:** Longest Common Subsequence (1143)
-  - **Practice:** Number of Distinct Subsequences (115)
+  - **Learn-Then-Implement:** Longest Common Subsequence (1143) [LEARN FIRST]
+  - **Practice:** Number of Distinct Subsequences (115) [TRY FIRST 30min]
 - **Wednesday:** 
   - Udemy: Trees + Basic DP
-  - **Learn-Then-Implement:** Range Sum Query - Immutable (303)
-  - **Practice:** Range Sum Query - Mutable (307) - *Watch William Fiset's segment tree video first*
+  - **Learn-Then-Implement:** Range Sum Query - Immutable (303) [LEARN FIRST]
+  - **Practice:** Range Sum Query - Mutable (307) [LEARN FIRST] - *Watch William Fiset's segment tree video first*
 - **Thursday:** 
-  - **Learn-Then-Implement:** Count of Smaller Numbers After Self (315)
-  - **Practice:** My Calendar I (729)
+  - **Try-First:** Count of Smaller Numbers After Self (315) [TRY FIRST 45min]
+  - **Try-First:** My Calendar I (729) [TRY FIRST 30min]
   - **Review:** All subsequence patterns learned so far
 - **Friday:** 
-  - **Mixed Practice:** Combine subsequence + range query problems
+  - **Mixed Practice:** Combine subsequence + range query problems [ALL TRY FIRST]
   - **Mock Assessment:** Time yourself on similar problems (1 hour each)
 - **Weekend:** 
   - **Pattern Review:** Create cheat sheet of approaches learned
@@ -221,10 +298,10 @@
 - **Evening (1-2 hours):** Practice medium/hard problems + communication practice
 
 **Weekly Structure:**
-- **Monday:** New pattern introduction using Udemy knowledge as foundation
-- **Tuesday-Thursday:** Medium problems from current pattern
-- **Friday:** Hard problem from current pattern
-- **Saturday:** Mixed review from all learned patterns
+- **Monday:** New pattern introduction using Udemy knowledge as foundation [LEARN FIRST approach]
+- **Tuesday-Thursday:** Medium problems from current pattern [PROGRESSIVE: try first, then learn if needed]
+- **Friday:** Hard problem from current pattern [ALWAYS TRY FIRST]
+- **Saturday:** Mixed review from all learned patterns [TRY FIRST ONLY]
 - **Sunday:** Mock interview practice (timed problems) + communication drills
 
 ### **Amazon-Specific Focus (Post-Udemy):**
@@ -293,25 +370,25 @@
 Based on your recent experience, focus on these patterns first:
 
 1. **Two Pointers** (Week 1) - Master these 5 problems:
-   - Two Sum II (167)
-   - Container With Most Water (11)
-   - 3Sum (15)
-   - Remove Duplicates from Sorted Array (26)
-   - Valid Palindrome (125)
+   - Two Sum II (167) [LEARN FIRST]
+   - Container With Most Water (11) [LEARN FIRST]
+   - 3Sum (15) [TRY FIRST 20min]
+   - Remove Duplicates from Sorted Array (26) [TRY FIRST 15min]
+   - Valid Palindrome (125) [TRY FIRST 15min]
 
 2. **Sliding Window** (Week 1) - Master these 5 problems:
-   - Maximum Average Subarray I (643)
-   - Longest Substring Without Repeating Characters (3)
-   - Minimum Window Substring (76)
-   - Permutation in String (567)
-   - Sliding Window Maximum (239)
+   - Maximum Average Subarray I (643) [TRY FIRST 15min]
+   - Longest Substring Without Repeating Characters (3) [LEARN FIRST]
+   - Minimum Window Substring (76) [TRY FIRST 30min]
+   - Permutation in String (567) [TRY FIRST 25min]
+   - Sliding Window Maximum (239) [TRY FIRST 45min]
 
 3. **Tree Traversal** (Week 2) - Master these 5 problems:
-   - Binary Tree Inorder Traversal (94)
-   - Maximum Depth of Binary Tree (104)
-   - Binary Tree Level Order Traversal (102)
-   - Binary Tree Right Side View (199)
-   - Validate Binary Search Tree (98)
+   - Binary Tree Inorder Traversal (94) [LEARN FIRST]
+   - Maximum Depth of Binary Tree (104) [TRY FIRST 15min]
+   - Binary Tree Level Order Traversal (102) [LEARN FIRST]
+   - Binary Tree Right Side View (199) [TRY FIRST 25min]
+   - Validate Binary Search Tree (98) [TRY FIRST 30min]
 
 ### **Amazon Assessment Tips:**
 - **Time Management:** 45-60 minutes per problem typically
@@ -377,7 +454,7 @@ Based on your recent experience, focus on these patterns first:
 
 **Learning Approach per Problem:**
 1. **Search YouTube:** "[Problem Name] explanation" or "NeetCode [Problem Name]"
-2. **Watch 1-2 videos** to see different approaches
+2. **Watch 1-2 videos** to see different approaches [ONLY for problems 1-2 of each pattern initially]
 3. **Close browser** and implement from memory
 4. **Think out loud** while coding (practice interview communication)
 5. **Test with examples** and handle edge cases yourself
